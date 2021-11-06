@@ -59,7 +59,15 @@ proxy-groups:
     tolerance: 50
     use:
       - asia
-      
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+
 proxy-providers:
   tw:
     type: http
