@@ -10,7 +10,6 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇰🇷 韩国节点
-      - 🌏 亚洲节点
 
   - name: 🇨🇳 中国手动选择
     type: select
@@ -52,13 +51,6 @@ proxy-groups:
     tolerance: 50
     use:
       - kr
-  - name: 🌏 亚洲节点
-    type: url-test
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 194
-    tolerance: 50
-    use:
-      - asia
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -105,14 +97,6 @@ proxy-providers:
     type: http
     url: "https://proxies.bihai.cf/clash/proxies?c=KR"
     path: proxies.bihai.cf/provider-kr.yaml
-    health-check:
-      enable: true
-      interval: 3600
-      url: http://www.gstatic.com/generate_204
-  asia:
-    type: http
-    url: "https://proxies.bihai.cf/clash/proxies?c=HK,JP,KR,SG"
-    path: proxies.bihai.cf/provider-asia.yaml
     health-check:
       enable: true
       interval: 3600
