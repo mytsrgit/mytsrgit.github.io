@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/mytsrgit/mytsrgit.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files[.](https://shadowsockshelp.github.io/ios/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files[.](https://raw.fastgit.org/mytsrgit/l/main/l)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
